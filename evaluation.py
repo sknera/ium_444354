@@ -4,7 +4,7 @@ from sklearn import metrics
 import numpy as np
 import csv 
 import matplotlib.pyplot as plt
-f = open("pytorch/result.txt", "r")
+f = open("result.txt", "r")
 
 list_result, list_predicted=[],[]
 for x in f:
