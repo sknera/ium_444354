@@ -22,4 +22,9 @@ jobs:
           pip3 install sklearn
           python pytorch.py
           python evaluation.py
+          
+          cat eval.csv >> raport.md
+          cml-publish metrics.png --md >> raport.md
+          cml-send-comment raport.md
+          cml-send-github-check raport.md
            
