@@ -22,4 +22,4 @@ jobs:
           pip3 install sklearn
           python pytorch.py
           python evaluation.py
-          RUN 
+           
